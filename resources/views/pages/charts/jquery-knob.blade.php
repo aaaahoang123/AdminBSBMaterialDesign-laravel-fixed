@@ -311,6 +311,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/charts/jquery-knob.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-knob/jquery.knob.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/charts/jquery-knob.js"></script>
 @endsection

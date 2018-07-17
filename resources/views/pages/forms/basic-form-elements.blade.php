@@ -5,9 +5,9 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/waitme/waitMe.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-select/css/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css">
+    <link rel="stylesheet" href="/assets/plugins/waitme/waitMe.min.css">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-select/css/bootstrap-select.min.css">
 @endsection
 
 @section('content')
@@ -788,8 +788,8 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/autosize/autosize.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/momentjs/moment.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/forms/basic-form-elements.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/autosize/autosize.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/momentjs/moment.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/forms/basic-form-elements.js"></script>
 @endsection

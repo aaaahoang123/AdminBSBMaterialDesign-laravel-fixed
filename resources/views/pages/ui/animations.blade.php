@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-select/css/bootstrap-select.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-select/css/bootstrap-select.min.css">
 @endsection
 
 @section('content')
@@ -36,7 +36,7 @@
                         </ul>
                     </div>
                     <div class="body">
-                        <img src="{{secure_asset('assets/images/animation-bg.jpg')}}" class="js-animating-object img-responsive">
+                        <img src="/assets/images/animation-bg.jpg" class="js-animating-object img-responsive">
                         <div class="demo-image-copyright">
                             This image taken from <a href="https://unsplash.com" target="_blank">Unsplash</a>
                         </div>
@@ -153,5 +153,5 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/ui/animations.js')}}"></script>
+    <script type="text/javascript" src="/assets/js/pages/ui/animations.js"></script>
 @endsection

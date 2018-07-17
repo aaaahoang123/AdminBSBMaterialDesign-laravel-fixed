@@ -5,13 +5,13 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/dropzone/dropzone.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/multi-select/css/multi-select.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/jquery-spinner/css/bootstrap-spinner.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap-select/css/bootstrap-select.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/nouislider/nouislider.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">
+    <link rel="stylesheet" href="/assets/plugins/dropzone/dropzone.min.css">
+    <link rel="stylesheet" href="/assets/plugins/multi-select/css/multi-select.min.css">
+    <link rel="stylesheet" href="/assets/plugins/jquery-spinner/css/bootstrap-spinner.min.css">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="/assets/plugins/bootstrap-select/css/bootstrap-select.css">
+    <link rel="stylesheet" href="/assets/plugins/nouislider/nouislider.min.css">
 @endsection
 
 @section('content')
@@ -823,12 +823,12 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/dropzone/dropzone.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/multi-select/js/jquery.multi-select.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-spinner/js/jquery.spinner.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/nouislider/nouislider.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/forms/advanced-form-elements.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/dropzone/dropzone.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/multi-select/js/jquery.multi-select.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-spinner/js/jquery.spinner.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/nouislider/nouislider.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/forms/advanced-form-elements.js"></script>
 @endsection

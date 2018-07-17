@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/light-gallery/css/lightgallery.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/light-gallery/css/lightgallery.min.css">
 @endsection
 
 @section('content')
@@ -149,6 +149,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/light-gallery/js/lightgallery-all.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/medias/image-gallery.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/light-gallery/js/lightgallery-all.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/medias/image-gallery.js"></script>
 @endsection

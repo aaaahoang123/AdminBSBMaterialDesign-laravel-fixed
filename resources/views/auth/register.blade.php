@@ -9,7 +9,7 @@
             <i class="material-icons">person</i>
         </span>
         <div class="form-line {{ $errors->has('name') ? ' error' : '' }}">
-            <input type="text" class="form-control" name="name" value="{{old('name')}}" placeholder="Username" required autofocus>
+            <input type="text" class="form-control" name="name" value="{{old('name" placeholder="Username" required autofocus>
         </div>
         @if ($errors->has('email'))
             <label id="name-error" class="error" for="name">{{ $errors->first('name') }}</label>
@@ -20,7 +20,7 @@
         <i class="material-icons">email</i>
         </span>
         <div class="form-line {{ $errors->has('email') ? ' error' : '' }}">
-            <input type="text" class="form-control" name="email" value="{{old('email')}}" placeholder="Email Address" required autofocus>
+            <input type="text" class="form-control" name="email" value="{{old('email" placeholder="Email Address" required autofocus>
         </div>
         @if ($errors->has('email'))
             <label id="email-error" class="error" for="email">{{ $errors->first('email') }}</label>
@@ -55,7 +55,7 @@
         </div>
     </div>
     <div class="m-t-25 m-b--5 align-center">
-        <a href="{{route('login')}}">You already have a membership?</a>
+        <a href="{{route('login">You already have a membership?</a>
     </div>
 </form>
 @endsection

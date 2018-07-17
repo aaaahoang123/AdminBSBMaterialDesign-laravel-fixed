@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/morrisjs/morris.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/morrisjs/morris.css">
 @endsection
 
 @section('content')
@@ -102,7 +102,7 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/ckeditor/ckeditor.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/tinymce/tinymce.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/forms/editors.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="/assets/plugins/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/forms/editors.js"></script>
 @endsection

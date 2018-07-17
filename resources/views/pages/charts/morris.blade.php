@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/morrisjs/morris.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/morrisjs/morris.min.css">
 @endsection
 
 @section('content')
@@ -120,7 +120,7 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/raphael/raphael.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/morrisjs/morris.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/charts/morris.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/raphael/raphael.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/morrisjs/morris.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/charts/morris.js"></script>
 @endsection

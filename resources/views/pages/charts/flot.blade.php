@@ -155,10 +155,10 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.resize.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.pie.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.categories.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.time.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/charts/flot.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/flot-charts/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/flot-charts/jquery.flot.resize.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/flot-charts/jquery.flot.pie.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/flot-charts/jquery.flot.categories.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/flot-charts/jquery.flot.time.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/charts/flot.js"></script>
 @endsection

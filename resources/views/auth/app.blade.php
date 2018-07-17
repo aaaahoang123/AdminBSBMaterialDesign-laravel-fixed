@@ -9,12 +9,12 @@
     <!-- Favicon-->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     @section('css')
-        <link rel="stylesheet" href="{{secure_asset('assets/plugins/bootstrap/css/bootstrap.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('assets/plugins/node-waves/waves.min.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('assets/plugins/animate-css/animate.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('assets/plugins/morrisjs/morris.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('assets/css/style.css')}}">
-        <link rel="stylesheet" href="{{secure_asset('assets/css/themes/all-themes.css')}}">
+        <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="/assets/plugins/node-waves/waves.min.css">
+        <link rel="stylesheet" href="/assets/plugins/animate-css/animate.css">
+        <link rel="stylesheet" href="/assets/plugins/morrisjs/morris.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/themes/all-themes.css">
          <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -35,12 +35,12 @@
     </div>
 
     @section('script')
-        <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery/jquery.min.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap/js/bootstrap.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('assets/plugins/node-waves/waves.min.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-validation/jquery.validate.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('assets/js/admin.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('assets/js/pages/examples/sign-in.js')}}"></script>
+        <script type="text/javascript" src="/assets/plugins/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="/assets/plugins/node-waves/waves.min.js"></script>
+        <script type="text/javascript" src="/assets/plugins/jquery-validation/jquery.validate.js"></script>
+        <script type="text/javascript" src="/assets/js/admin.js"></script>
+        <script type="text/javascript" src="/assets/js/pages/examples/sign-in.js"></script>
     @show
 
 </body>

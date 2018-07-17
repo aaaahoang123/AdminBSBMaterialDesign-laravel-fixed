@@ -5,8 +5,8 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/ion-rangeslider/css/ion.rangeSlider.min.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/ion-rangeslider/css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="/assets/plugins/ion-rangeslider/css/ion.rangeSlider.skinFlat.min.css">
 @endsection
 
 @section('content')
@@ -84,6 +84,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/ion-rangeslider/js/ion.rangeSlider.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/ui/range-sliders.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/ui/range-sliders.js"></script>
 @endsection

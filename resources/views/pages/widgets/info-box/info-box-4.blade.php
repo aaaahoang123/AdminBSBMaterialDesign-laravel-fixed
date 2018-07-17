@@ -268,7 +268,7 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-countto/jquery.countTo.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-sparkline/jquery.sparkline.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/widgets/infobox/infobox-4.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-countto/jquery.countTo.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-sparkline/jquery.sparkline.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/widgets/infobox/infobox-4.js"></script>
 @endsection

@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{secure_asset('assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.min.css')}}">
+    <link rel="stylesheet" href="/assets/plugins/jquery-datatable/skin/bootstrap/css/dataTables.bootstrap.min.css">
 @endsection
 
 @section('content')
@@ -1038,14 +1038,14 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/jquery.dataTables.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/buttons.flash.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/jszip.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/pdfmake.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/vfs_fonts.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/buttons.html5.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-datatable/extensions/export/buttons.print.min.js')}}"></script>
-    <script type="text/javascript" src="{{secure_asset('assets/js/pages/tables/jquery-datatable.js')}}"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+    <script type="text/javascript" src="/assets/js/pages/tables/jquery-datatable.js"></script>
 @endsection
