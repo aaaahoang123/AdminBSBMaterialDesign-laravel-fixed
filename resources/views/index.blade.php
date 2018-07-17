@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{asset('assets/plugins/morrisjs/morris.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/plugins/morrisjs/morris.css')}}">
 @endsection
 
 @section('content')
@@ -321,15 +321,15 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-countto/jquery.countTo.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/raphael/raphael.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/morrisjs/morris.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/chartjs/Chart.bundle.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/flot-charts/jquery.flot.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/flot-charts/jquery.flot.resize.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/flot-charts/jquery.flot.pie.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/flot-charts/jquery.flot.categories.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/flot-charts/jquery.flot.time.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/index.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-countto/jquery.countTo.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/raphael/raphael.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/morrisjs/morris.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/chartjs/Chart.bundle.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.resize.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.pie.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.categories.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/flot-charts/jquery.flot.time.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/index.js')}}"></script>
 @endsection

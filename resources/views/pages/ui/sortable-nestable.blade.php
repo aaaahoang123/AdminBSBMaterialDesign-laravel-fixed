@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{asset('assets/plugins/nestable/jquery-nestable.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/plugins/nestable/jquery-nestable.min.css')}}">
 @endsection
 
 @section('content')
@@ -229,6 +229,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/nestable/jquery.nestable.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/ui/sortable-nestable.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/nestable/jquery.nestable.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/ui/sortable-nestable.js')}}"></script>
 @endsection

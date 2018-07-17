@@ -110,5 +110,5 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/js/pages/ui/tooltips-popovers.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/ui/tooltips-popovers.js')}}"></script>
 @endsection

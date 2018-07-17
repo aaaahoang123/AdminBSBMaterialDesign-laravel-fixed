@@ -121,6 +121,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/chartjs/Chart.bundle.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/charts/chartjs.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/chartjs/Chart.bundle.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/charts/chartjs.js')}}"></script>
 @endsection

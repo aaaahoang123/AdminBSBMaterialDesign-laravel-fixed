@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{asset('assets/plugins/sweetalert/sweetalert.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/plugins/sweetalert/sweetalert.css')}}">
 @endsection
 
 @section('content')
@@ -206,8 +206,8 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-steps/jquery.steps.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/sweetalert/sweetalert.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/forms/form-validation.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-steps/jquery.steps.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/sweetalert/sweetalert.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/forms/form-validation.js')}}"></script>
 @endsection

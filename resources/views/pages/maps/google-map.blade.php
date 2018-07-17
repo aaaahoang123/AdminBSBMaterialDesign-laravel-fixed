@@ -187,6 +187,6 @@
 
 @section('extra-script')
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDB8bmtghEUCGDxEhdLbaTOG9yAENpyHaM" type="text/javascript"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/gmaps/gmaps.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/maps/google.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/gmaps/gmaps.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/maps/google.js')}}"></script>
 @endsection

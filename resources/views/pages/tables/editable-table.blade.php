@@ -96,6 +96,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/editable-table/mindmup-editabletable.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/tables/editable-table.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/editable-table/mindmup-editabletable.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/tables/editable-table.js')}}"></script>
 @endsection

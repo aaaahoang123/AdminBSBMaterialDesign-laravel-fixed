@@ -200,6 +200,6 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/charts/sparkline.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/charts/sparkline.js')}}"></script>
 @endsection

@@ -1674,5 +1674,5 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/bootstrap-notify/bootstrap-notify.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap-notify/bootstrap-notify.min.js')}}"></script>
 @endsection

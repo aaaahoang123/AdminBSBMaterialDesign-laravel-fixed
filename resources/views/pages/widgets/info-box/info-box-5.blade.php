@@ -270,8 +270,8 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-countto/jquery.countTo.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/jquery-sparkline/jquery.sparkline.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/helpers.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/widgets/infobox/infobox-5.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-countto/jquery.countTo.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/jquery-sparkline/jquery.sparkline.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/helpers.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/widgets/infobox/infobox-5.js')}}"></script>
 @endsection

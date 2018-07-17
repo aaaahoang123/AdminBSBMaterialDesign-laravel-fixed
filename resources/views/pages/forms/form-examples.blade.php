@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{asset('assets/plugins/sweetalert/sweetalert.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/plugins/sweetalert/sweetalert.css')}}">
 @endsection
 
 @section('content')

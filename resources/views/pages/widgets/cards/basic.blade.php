@@ -196,5 +196,5 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/waitme/waitMe.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/waitme/waitMe.min.js')}}"></script>
 @endsection

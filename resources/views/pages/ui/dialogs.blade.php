@@ -5,7 +5,7 @@
 @endsection
 
 @section('extra-css')
-    <link rel="stylesheet" href="{{asset('assets/plugins/sweetalert/sweetalert.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('assets/plugins/sweetalert/sweetalert.min.css')}}">
 @endsection
 
 @section('content')
@@ -86,7 +86,7 @@
 @endsection
 
 @section('extra-script')
-    <script type="text/javascript" src="{{asset('assets/plugins/bootstrap-notify/bootstrap-notify.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/plugins/sweetalert/sweetalert.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('assets/js/pages/ui/dialogs.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/bootstrap-notify/bootstrap-notify.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/plugins/sweetalert/sweetalert.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/js/pages/ui/dialogs.js')}}"></script>
 @endsection
